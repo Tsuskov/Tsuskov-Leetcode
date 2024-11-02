@@ -1,7 +1,6 @@
 class Solution:
     def numTilings(self, n: int) -> int:
         
-        @cache
         def traverse(c, s):
             res = 0
             if c == n:
