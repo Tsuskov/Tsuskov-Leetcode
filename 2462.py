@@ -1,3 +1,6 @@
+import heapq
+
+
 class Solution:
     def totalCost(self, costs, k, candidates):
         i = 0
